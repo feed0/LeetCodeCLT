@@ -34,6 +34,7 @@
 		09807E092F01E56D008E0B64 /* Exceptions for "LeetCodeCLT" folder in "LeetCodeTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				RichestCustomerWealth.swift,
 				RunningSum.swift,
 			);
 			target = 094E75042EFCA1FC00F90DF4 /* LeetCodeTests */;

@@ -2,7 +2,7 @@
 //  RunningSum.swift
 //  LeetCodeCLT
 //
-//  Created by Felipe Eduardo Campelo Ferreira Osorio on 24/12/25.
+//  Created by feed0 on 24/12/25.
 //
 
 /// https://leetcode.com/problems/running-sum-of-1d-array/
@@ -32,9 +32,9 @@
 /// 1 <= nums.length <= 1000
 /// -10^6 <= nums[i] <= 10^6
 
-class RunningSum {
+struct RunningSum {
     
-    class Solution {
+    struct Solution {
         
         static func runningSum(_ nums: [Int]) -> [Int] {
             
