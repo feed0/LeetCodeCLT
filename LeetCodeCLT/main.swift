@@ -2,7 +2,7 @@
 //  main.swift
 //  LeetCodeCLT
 //
-//  Created by Felipe Eduardo Campelo Ferreira Osorio on 24/12/25.
+//  Created by feed0 on 24/12/25.
 //
 
 import Foundation
