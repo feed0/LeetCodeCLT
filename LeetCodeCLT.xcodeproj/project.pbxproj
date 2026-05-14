@@ -35,6 +35,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				FizzBuzz.swift,
+				NumberOfStepsToReduceANumberToZero.swift,
 				RichestCustomerWealth.swift,
 				RunningSum.swift,
 			);
