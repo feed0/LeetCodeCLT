@@ -68,5 +68,24 @@ struct NumberOfStepsToReduceANumberToZero {
             
             return stepCounter
         }
+        
+        func numberOfStepsAlternative(_ num: Int) -> Int {
+            
+            var stepCounter = 0
+            var decreasingNum = num
+            
+            while decreasingNum > 0 {
+                
+                if (decreasingNum & 1) == 0 { /// And-Bitmask 1 returns 1 when number is odd
+                    decreasingNum >>= 1 /// Shift right once to divide by 2
+                } else {
+                    decreasingNum -= 1
+                }
+                
+                stepCounter += 1
+            }
+            
+            return stepCounter
+        }
     }
 }
